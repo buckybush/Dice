@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Dice' target in the 'Dice' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

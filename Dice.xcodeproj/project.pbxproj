@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB3765413E086D400D8A22A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB3765313E086D400D8A22A /* Foundation.framework */; };
+		0FB3765713E086D400D8A22A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3765613E086D400D8A22A /* main.m */; };
+		0FB3765B13E086D400D8A22A /* Dice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FB3765A13E086D400D8A22A /* Dice.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FB3764D13E086D400D8A22A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0FB3765B13E086D400D8A22A /* Dice.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FB3764F13E086D400D8A22A /* Dice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dice; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB3765313E086D400D8A22A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FB3765613E086D400D8A22A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FB3765913E086D400D8A22A /* Dice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice-Prefix.pch"; sourceTree = "<group>"; };
+		0FB3765A13E086D400D8A22A /* Dice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Dice.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FB3764C13E086D400D8A22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB3765413E086D400D8A22A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB3764413E086D400D8A22A = {
+			isa = PBXGroup;
+			children = (
+				0FB3765513E086D400D8A22A /* Dice */,
+				0FB3765213E086D400D8A22A /* Frameworks */,
+				0FB3765013E086D400D8A22A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FB3765013E086D400D8A22A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3764F13E086D400D8A22A /* Dice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FB3765213E086D400D8A22A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3765313E086D400D8A22A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FB3765513E086D400D8A22A /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3765613E086D400D8A22A /* main.m */,
+				0FB3765A13E086D400D8A22A /* Dice.1 */,
+				0FB3765813E086D400D8A22A /* Supporting Files */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
+		0FB3765813E086D400D8A22A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3765913E086D400D8A22A /* Dice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FB3764E13E086D400D8A22A /* Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB3765E13E086D400D8A22A /* Build configuration list for PBXNativeTarget "Dice" */;
+			buildPhases = (
+				0FB3764B13E086D400D8A22A /* Sources */,
+				0FB3764C13E086D400D8A22A /* Frameworks */,
+				0FB3764D13E086D400D8A22A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dice;
+			productName = Dice;
+			productReference = 0FB3764F13E086D400D8A22A /* Dice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FB3764613E086D400D8A22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Northwest GA RESA";
+			};
+			buildConfigurationList = 0FB3764913E086D400D8A22A /* Build configuration list for PBXProject "Dice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FB3764413E086D400D8A22A;
+			productRefGroup = 0FB3765013E086D400D8A22A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FB3764E13E086D400D8A22A /* Dice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FB3764B13E086D400D8A22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB3765713E086D400D8A22A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FB3765C13E086D400D8A22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0FB3765D13E086D400D8A22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0FB3765F13E086D400D8A22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice/Dice-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FB3766013E086D400D8A22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice/Dice-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FB3764913E086D400D8A22A /* Build configuration list for PBXProject "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB3765C13E086D400D8A22A /* Debug */,
+				0FB3765D13E086D400D8A22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FB3765E13E086D400D8A22A /* Build configuration list for PBXNativeTarget "Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB3765F13E086D400D8A22A /* Debug */,
+				0FB3766013E086D400D8A22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FB3764613E086D400D8A22A /* Project object */;
+}
